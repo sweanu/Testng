@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="8" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sanity" duration-ms="34" started-at="2023-05-20T10:05:55Z" finished-at="2023-05-20T10:05:55Z">
+    <groups>
+      <group name="regression">
+        <method signature="HomeLoan.test2()[pri:0, instance:TestCases.HomeLoan@cb51256]" name="test2" class="TestCases.HomeLoan"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="CreditCard.test4()[pri:0, instance:TestCases.CreditCard@60285225]" name="test4" class="TestCases.CreditCard"/>
+        <method signature="HomeLoan.test2()[pri:0, instance:TestCases.HomeLoan@cb51256]" name="test2" class="TestCases.HomeLoan"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="34" started-at="2023-05-20T10:05:55Z" finished-at="2023-05-20T10:05:55Z">
+      <class name="TestCases.CreditCard">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:TestCases.CreditCard@60285225]" name="beforetest" is-config="true" duration-ms="8" started-at="2023-05-20T10:05:55Z" finished-at="2023-05-20T10:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:TestCases.CreditCard@60285225]" name="beforemethod" is-config="true" duration-ms="1" started-at="2023-05-20T10:05:55Z" finished-at="2023-05-20T10:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:TestCases.CreditCard@60285225]" name="test4" duration-ms="4" started-at="2023-05-20T10:05:55Z" finished-at="2023-05-20T10:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:TestCases.CreditCard@60285225]" name="aftermethod" is-config="true" duration-ms="0" started-at="2023-05-20T10:05:55Z" finished-at="2023-05-20T10:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:TestCases.CreditCard@60285225]" name="aftertest" is-config="true" duration-ms="0" started-at="2023-05-20T10:05:55Z" finished-at="2023-05-20T10:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- TestCases.CreditCard -->
+      <class name="TestCases.HomeLoan">
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:TestCases.HomeLoan@cb51256]" name="beforemethod" is-config="true" duration-ms="1" started-at="2023-05-20T10:05:55Z" finished-at="2023-05-20T10:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:TestCases.HomeLoan@cb51256]" name="test2" duration-ms="1" started-at="2023-05-20T10:05:55Z" finished-at="2023-05-20T10:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:TestCases.HomeLoan@cb51256]" name="aftermethod" is-config="true" duration-ms="0" started-at="2023-05-20T10:05:55Z" finished-at="2023-05-20T10:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- TestCases.HomeLoan -->
+    </test> <!-- Test -->
+  </suite> <!-- Sanity -->
+</testng-results>
